@@ -25,7 +25,7 @@ module "vpc" {
   vpc_flow_log_group       = "vpc_flow_logs_name"
 
     tags = {
-    Deployment = "terraform"
+    Deployment  = "terraform"
     Environment = "dev"
   }
 }
@@ -50,7 +50,7 @@ module "vpc" {
   vpc_flow_log_group       = "vpc_flow_logs_name"
 
     tags = {
-    Deployment = "terraform"
+    Deployment  = "terraform"
     Environment = "dev"
   }
 }
